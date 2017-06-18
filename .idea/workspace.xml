@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab1d05fa-aa4a-47af-8093-4fbe26d91c76" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-mockup/index.html" afterPath="$PROJECT_DIR$/1-mockup/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-mockup/main.js" afterPath="$PROJECT_DIR$/1-mockup/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-mockup/style.css" afterPath="$PROJECT_DIR$/1-mockup/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/first/index.html" afterPath="$PROJECT_DIR$/first/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/first/main.js" afterPath="$PROJECT_DIR$/first/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1-mockup/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -269,12 +263,12 @@
       <workItem from="1497773103559" duration="3012000" />
       <workItem from="1497779254982" duration="84000" />
       <workItem from="1497779635048" duration="270000" />
-      <workItem from="1497779929757" duration="4727000" />
+      <workItem from="1497779929757" duration="5077000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8085000" />
+    <option name="totallyTimeSpent" value="8435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
@@ -499,8 +493,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1-mockup/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
