@@ -9,10 +9,12 @@ class MockupElement extends HTMLElement {
     connectedCallback(){
         console.log('MockapElement#connectedCallback');
 
-        this.shadow.innerHTML = document.querySelector('template').innerHTML;
-        this.shadow.querySelector('img').setAttribute('src',this.attributes.image.value);
+        this.shadow.innerHTML = document.currentScript.ownerDocument.querySelector('template').innerHTML;
 
-        console.log(template);
+        this.shadow.querySelector('img').setAttribute('src',this.attributes.image.value);
+        this.shadow.querySelector('h1').innerHTML = this.attributes.label.value;
+
+
     }
 }
 
