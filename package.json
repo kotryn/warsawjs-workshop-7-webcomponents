@@ -1,0 +1,23 @@
+{
+    "private": true,
+    "name": "warsawjs-workshop-7-webcomponents",
+    "description": "Aplikacja stworzona na potrzeby WarsawJS Workshop #7",
+    "version": "0.0.0",
+    "license": "MIT",
+    "author": {
+        "name": "Piotr Kowalski",
+        "email": "piecioshka@gmail.com",
+        "url": "https://piecioshka.pl/"
+    },
+    "scripts": {
+        "clear": "",
+        "clear:all": "rm -rf node_modules/ && npm run clear",
+        "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r"
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:piecioshka/warsawjs-workshop-7-webcomponents.git"
+    }
+}
