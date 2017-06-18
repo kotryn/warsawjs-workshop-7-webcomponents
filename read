@@ -1,0 +1,8 @@
+* polyfill - by map dzialal na internet explorer +++
+* shim - podobnie jak polyfill, ale nie spieraja w 100% specyfikacji
+
+* shadow dom - robi co dom, ale do cienia nie da sie dotrzec z zewnatrz
+* kontekstowe style
+* custom elements
+* templates - nie jest renderowany
+* html imports
