@@ -13,8 +13,6 @@ class MockupElement extends HTMLElement {
 
         this.shadow.querySelector('img').setAttribute('src',this.attributes.image.value);
         this.shadow.querySelector('h1').innerHTML = this.attributes.label.value;
-
-
     }
 }
 
