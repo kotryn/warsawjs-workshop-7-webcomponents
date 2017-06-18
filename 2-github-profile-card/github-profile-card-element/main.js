@@ -37,8 +37,8 @@ class GithubMockupElement extends HTMLElement {
         //this.shadow.querySelector('h1').innerHTML = this.attributes.label.value;
 
 
-        this._fetch_github_profile(this.shadow);
-        this._fetch_github_profile_2(this.shadow);
+        this._fetch_github_profile();
+        this._fetch_github_profile_2();
 
 
        // this.shadow.querySelector('img').setAttribute('src', );
@@ -46,7 +46,7 @@ class GithubMockupElement extends HTMLElement {
 
     }
 
-    _fetch_github_profile(shadow) {
+    _fetch_github_profile() {
         var request = new Request('./github-profile-card-element/mocks/github-piecioshka-profile.json', {
             /*headers: new Headers({
              'Content-Type': 'text/plain'
@@ -55,27 +55,27 @@ class GithubMockupElement extends HTMLElement {
 
         return fetch(request)
 
-            .then(function (response) {
+            .then((response) => {
                 response = response.json();
                 console.log(response);
                 return response;
             })
 
-            .then(function(data) {
+            .then((data) => {
                 console.log('........');
                 console.log(data.avatar_url);
 
-                shadow.querySelector('img').setAttribute('src', data.avatar_url);
-                shadow.querySelector('.name').innerHTML = data.name;
-                shadow.querySelector('.bio').innerHTML = data.bio;
-                shadow.querySelector('.location').innerHTML = data.location;
+                this.shadow.querySelector('img').setAttribute('src', data.avatar_url);
+                this.shadow.querySelector('.name').innerHTML = data.name;
+                this.shadow.querySelector('.bio').innerHTML = data.bio;
+                this.shadow.querySelector('.location').innerHTML = data.location;
 
 
                 return data;
             });
     }
 
-    _fetch_github_profile_2(shadow) {
+    _fetch_github_profile_2() {
         var request = new Request('./github-profile-card-element/mocks/github-piecioshka-repositories.json', {
             /*headers: new Headers({
              'Content-Type': 'text/plain'
@@ -84,50 +84,45 @@ class GithubMockupElement extends HTMLElement {
 
         return fetch(request)
 
-            .then(function (response) {
+            .then((response) => {
                 response = response.json();
                 console.log(response);
                 return response;
             })
 
-            .then(function(data) {
+            .then((data) => {
                 console.log('........');
                 console.log(data[0].stargazers_count);
 
-                //shadow.querySelector('.star').innerHTML = data[0].stargazers_count + ' ' + data[0].name;
-                
-                var temp = null;
-                for (var i = 0; i < 10; i++){
-                    temp =  temp + '<br>'+data[i].stargazers_count + ' ' + data[i].name;
-                }
-                shadow.querySelector('.star').innerHTML = temp;
+                this.shadow.querySelector('.star').innerHTML = this._github_star(data);
 
 
                 return data;
             });
     }
 
-    /*_github_star(data){
-        var temp = null;
-        for (i = 0; i < 10; i++){
-            temp =  temp + '<br>'+data[i].stargazers_count + ' ' + data[i].name;
+    _github_star(data){
+        let temp = '';
+        //let sortedData = data.cloneNode();
+        data.sort(function(a,b) {return (a.stargazers_count < b.stargazers_count) ? 1 : ((b.stargazers_count < a.stargazers_count) ? -1 : 0);} );
+
+        for (let i = 0; i < 3; i++){
+            temp =  temp +data[i].stargazers_count + ' ' + data[i].name + '&#9;&#9;';
+        }
+        temp =  temp + '<br>';
+        for (let i = 3; i < 6; i++){
+            temp =  temp +data[i].stargazers_count + ' ' + data[i].name +'&#9;&#9;';
+
+        }
+        temp =  temp + '<br>';
+        for (let i = 6; i < 9; i++){
+            temp =  temp +data[i].stargazers_count + ' ' + data[i].name+'&#9;&#9;&#9;';
+
         }
         return temp;
-    }*/
+    }
 
 
 }
 
 window.customElements.define('github-profile-card-element', GithubMockupElement);
-
-/*
- fetch('https://davidwalsh.name/some/url', {
- method: 'get'
- }).then(function(response) {
-
- }).catch(function(err) {
- // Error :(
- });
- */
-
-//https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API

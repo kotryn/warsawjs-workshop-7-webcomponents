@@ -1,8 +1,28 @@
-body{
-    background: red;
+img{
+    height: 200px;
+    /*width: 100px;*/
+    vertical-align: middle;
+    /*display: inline-block;*/
 }
-h1 {
 
-    background: red;
-    color: yellow;
+.star{
+    white-space:pre-wrap;
+    /*display: inline-block;*/
+}
+li{
+    display: inline-block;
+}
+.gitData{
+    display: inline-block;
+    width: 600px;
+    border: 3px solid #73AD21;
+}
+p {
+    font-size: 16px;
+    margin: 0;
+    color: black;
+    display: inline-block;
+}
+.data{
+    display: inline-block;
 }
