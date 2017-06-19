@@ -5,3 +5,5 @@ coverage/
 dist/
 
 read.txt
+
+.idea/

@@ -107,16 +107,16 @@ class GithubMockupElement extends HTMLElement {
         data.sort(function(a,b) {return (a.stargazers_count < b.stargazers_count) ? 1 : ((b.stargazers_count < a.stargazers_count) ? -1 : 0);} );
 
         for (let i = 0; i < 3; i++){
-            temp =  temp +data[i].stargazers_count + ' ' + data[i].name + '&#9;&#9;';
+            temp =  temp + '<li>'+data[i].stargazers_count + ' ' + data[i].name + '</li>';
         }
         temp =  temp + '<br>';
         for (let i = 3; i < 6; i++){
-            temp =  temp +data[i].stargazers_count + ' ' + data[i].name +'&#9;&#9;';
+            temp =  temp + '<li>'+data[i].stargazers_count + ' ' + data[i].name + '</li>';
 
         }
         temp =  temp + '<br>';
         for (let i = 6; i < 9; i++){
-            temp =  temp +data[i].stargazers_count + ' ' + data[i].name+'&#9;&#9;&#9;';
+            temp =  temp + '<li>'+data[i].stargazers_count + ' ' + data[i].name + '</li>';
 
         }
         return temp;

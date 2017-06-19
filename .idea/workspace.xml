@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab1d05fa-aa4a-47af-8093-4fbe26d91c76" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-github-profile-card/github-profile-card-element/index.html" afterPath="$PROJECT_DIR$/2-github-profile-card/github-profile-card-element/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-github-profile-card/github-profile-card-element/main.js" afterPath="$PROJECT_DIR$/2-github-profile-card/github-profile-card-element/main.js" />
@@ -27,8 +26,38 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2-github-profile-card/github-profile-card-element/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="90">
+              <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-mockup/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1-mockup/component/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1-mockup/component/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="80" lean-forward="false" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -37,20 +66,20 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2-github-profile-card/github-profile-card-element/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="13" selection-end-column="69" />
+            <state relative-caret-position="195">
+              <caret line="13" column="59" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="59" />
               <folding>
-                <element signature="n#style#0;n#p#1;n#div#0;n#li#1;n#ul#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2-github-profile-card/github-profile-card-element/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="118" column="85" lean-forward="false" selection-start-line="118" selection-start-column="85" selection-end-line="118" selection-end-column="85" />
+            <state relative-caret-position="369">
+              <caret line="118" column="90" lean-forward="false" selection-start-line="118" selection-start-column="90" selection-end-line="118" selection-end-column="90" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -82,8 +111,8 @@
         <option value="$PROJECT_DIR$/2-github-profile-card/github-profile-card-element/test.html" />
         <option value="$PROJECT_DIR$/2-github-profile-card/index.html" />
         <option value="$PROJECT_DIR$/2-github-profile-card/github-profile-card-element/index.html" />
-        <option value="$PROJECT_DIR$/2-github-profile-card/github-profile-card-element/style.css" />
         <option value="$PROJECT_DIR$/2-github-profile-card/github-profile-card-element/main.js" />
+        <option value="$PROJECT_DIR$/2-github-profile-card/github-profile-card-element/style.css" />
       </list>
     </option>
   </component>
@@ -311,12 +340,12 @@
       <workItem from="1497773103559" duration="3012000" />
       <workItem from="1497779254982" duration="84000" />
       <workItem from="1497779635048" duration="270000" />
-      <workItem from="1497779929757" duration="19863000" />
+      <workItem from="1497779929757" duration="22273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23221000" />
+    <option name="totallyTimeSpent" value="25631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -571,34 +600,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-mockup/component/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="80" lean-forward="false" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2-github-profile-card/github-profile-card-element/mocks/github-piecioshka-profile.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-mockup/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-mockup/component/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -619,31 +624,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-github-profile-card/github-profile-card-element/style.css">
+    <entry file="file://$PROJECT_DIR$/2-github-profile-card/github-profile-card-element/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="369">
+          <caret line="118" column="90" lean-forward="false" selection-start-line="118" selection-start-column="90" selection-end-line="118" selection-end-column="90" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2-github-profile-card/github-profile-card-element/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="13" selection-end-column="69" />
+        <state relative-caret-position="195">
+          <caret line="13" column="59" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="59" />
           <folding>
-            <element signature="n#style#0;n#p#1;n#div#0;n#li#1;n#ul#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-github-profile-card/github-profile-card-element/main.js">
+    <entry file="file://$PROJECT_DIR$/2-github-profile-card/github-profile-card-element/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="118" column="85" lean-forward="false" selection-start-line="118" selection-start-column="85" selection-end-line="118" selection-end-column="85" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-mockup/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-mockup/component/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-mockup/component/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="80" lean-forward="false" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+          <folding />
         </state>
       </provider>
     </entry>
