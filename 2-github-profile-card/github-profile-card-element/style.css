@@ -1,46 +1,71 @@
-.star{
-    white-space:pre-wrap;
-    /*display: inline-block;*/
-}
-li{
-    display: inline;
-    margin-right: 100px;
-    float: left;
-    white-space:pre-wrap;
+h1 {
+    font-size: 35px;
+    text-align: left;
+    padding: 1px 50px 1px 20px;
+    color: black;
+    background: lightgrey;
+    margin: 0;
 }
 p {
     font-size: 16px;
-    margin: 0;
+    text-align: left;
+    padding: 1px 50px 1px 20px;
+    width: 370px;
     color: black;
     display: inline-block;
-    margin-bottom: 3px;
+    margin: 10px 0 10px 0;
 }
-h1 {
-    font-size: 22px;
-    margin-bottom: 6px;
-    color: black;
-    display: inline-block;
+.location{
+    font-weight: bold;
 }
-
+hr{
+    width: 520px;
+}
 .gitData{
-    width: 800px;
-    height: 400px;
-    border-radius: 3px;
-    border: 1px solid #2980b9;
-    box-shadow: 0 0 10px black inset;
-    padding: 5px;
+    width: 550px;
+    height: 300px;
+    border-radius: 5px;
+    border: 1px solid #f2f2f2;
+    padding: 0;
     overflow: hidden;
-}
-
-.image{
-    height: 200px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 10px 0 0;
+    margin: 0;
+    background: #fcfcfc;
 }
 .data {
-    width: 500px;
+    width: 380px;
     display: inline-block;
     color: white;
-    margin: 0;
+    margin-top: 20px;
+    padding: 0;
 }
+.image{
+    height: 150px;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0 10px 10px;
+    float: left;
+}
+li{
+    font-size: 14px;
+    display: inline;
+    float: left;
+    margin: 5px 15px 0 0;
+    width: 115px;
+    height: 33px;
+}
+.star_image{
+    width: 35px;
+    height: 20px;
+    margin: 5px 2px 0 8px;
+    background: #d3d3d0;
+    border-radius: 5px;
+    padding-left: 7px;
+}
+
+
+
+
+
+
+

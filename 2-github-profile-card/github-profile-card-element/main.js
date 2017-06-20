@@ -106,18 +106,8 @@ class GithubMockupElement extends HTMLElement {
         //let sortedData = data.cloneNode();
         data.sort(function(a,b) {return (a.stargazers_count < b.stargazers_count) ? 1 : ((b.stargazers_count < a.stargazers_count) ? -1 : 0);} );
 
-        for (let i = 0; i < 3; i++){
-            temp =  temp + '<li>'+data[i].stargazers_count + ' ' + data[i].name + '</li>';
-        }
-        temp =  temp + '<br>';
-        for (let i = 3; i < 6; i++){
-            temp =  temp + '<li>'+data[i].stargazers_count + ' ' + data[i].name + '</li>';
-
-        }
-        temp =  temp + '<br>';
-        for (let i = 6; i < 9; i++){
-            temp =  temp + '<li>'+data[i].stargazers_count + ' ' + data[i].name + '</li>';
-
+        for (let i = 0; i < 9; i++){
+            temp =  temp + '<li class="star_image">'+data[i].stargazers_count + ' ☆ </li><li>' + data[i].name + '</li>';
         }
         return temp;
     }
