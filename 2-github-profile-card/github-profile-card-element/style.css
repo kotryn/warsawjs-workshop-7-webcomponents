@@ -21,7 +21,7 @@ p {
 hr{
     width: 520px;
 }
-.gitData{
+.git-data{
     width: 550px;
     height: 300px;
     border-radius: 5px;
@@ -54,7 +54,7 @@ li{
     width: 115px;
     height: 33px;
 }
-.star_image{
+.star-image{
     width: 35px;
     height: 20px;
     margin: 5px 2px 0 8px;
@@ -62,10 +62,3 @@ li{
     border-radius: 5px;
     padding-left: 7px;
 }
-
-
-
-
-
-
-
